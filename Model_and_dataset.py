@@ -15,9 +15,15 @@ import pandas as pd
 import torch
 import torchvision
 import os
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, TensorDataset
 from torchvision import datasets
-from torch.utils.data import TensorDataset
+import torch.nn as nn
+import torch
+from torch.nn.modules.container import Sequential
+from collections import defaultdict
+from IPython.display import clear_output
+from copy import deepcopy
+from tqdm.notebook import tqdm
 
 class CustomStructureDataset(Dataset):
     def __init__(self, annotations_file, train = True, normalize = None, mean = None, std = None, transform = None,  str_dir = 'drive/MyDrive/Dataset'):
@@ -54,9 +60,7 @@ class CustomStructureDataset(Dataset):
           structure = self.transform_str(structure, self.mean_str, self.std_str)
         return structure, label
 
-import torch.nn as nn
-import torch
-from torch.nn.modules.container import Sequential
+
 
 class First_CNN(nn.Module):
 
@@ -89,9 +93,7 @@ class First_CNN(nn.Module):
       x = self.conv_stack(x)
       return x
 
-from collections import defaultdict
 
-from IPython.display import clear_output
 
 
 class ProgressPlotter:
@@ -164,10 +166,6 @@ class ProgressPlotter:
     def history_dict(self):
         return dict(self._history_dict)
 
-from copy import deepcopy
-
-from sklearn.metrics import accuracy_score, f1_score
-from tqdm.notebook import tqdm
 
 
 class BaseTrainer:
