@@ -1,3 +1,5 @@
+Папка со всеми скаченными структурами, которые исользуются в работе: https://drive.google.com/drive/folders/1OFFk6UMi0pjQFNaFUyVIwOeks7vU567z?usp=drive_link
+
 Данные для обучения можно скачать по ссылке (размер около 30 Гб): https://drive.google.com/drive/folders/1sYaMtQof40bjuSW_iGLjdJEa1vtDGFlO?usp=drive_link
 
 Таблица со списком файлов для train https://drive.google.com/file/d/1G9BFjcmvA-WFVpfqPaT3fopt6xer9_p8/view?usp=drive_link
