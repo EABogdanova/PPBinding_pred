@@ -65,7 +65,8 @@
 ### Оценка важности признаков
 
 Был рассчитан разброс весов, внутри каналов, которые в данном случае являются признаками. 
-![image](https://github.com/EABogdanova/PPBinding_pred/assets/126514009/2c92a40c-7daa-4bac-be2b-2db17e89ae5d)
+![image](https://github.com/EABogdanova/PPBinding_pred/assets/126514009/ece4b2e4-e6fa-4bff-8bcc-2a5990603647)
+
 
 Наибольший разброс характерен для канала с ароматическими атомами и акцепторами и донорами водородных связей.
 
