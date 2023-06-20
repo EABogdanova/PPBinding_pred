@@ -57,7 +57,7 @@
 Скрипт для обучения модели представлен в файле Train_Model.ipynb
 
 ### Метрики на тестовой выборке:
-- Корреляция Пирсона = 0.6
+- Корреляция Пирсона = 0.6 (p-value = 4e-14)
 - RMSE = 1.5
 
 ![image](https://github.com/EABogdanova/PPBinding_pred/assets/126514009/23a82880-9a5a-4ff0-a9bf-8e9af0c7da99)
